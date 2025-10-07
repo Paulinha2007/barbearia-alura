@@ -1,3 +1,11 @@
 p{
-    text-align: center
+    text-align: center;
+}
+ 
+body{
+    background: #f8f7f7
+}
+
+em strong {
+    color: RED;
 }
