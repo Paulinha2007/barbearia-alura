@@ -1,5 +1,9 @@
-body{
+ body{
     background: #f8f7f7
+}
+
+#banner{
+    width:100%;
 }
 
 h1 {
@@ -11,9 +15,13 @@ p {
 }
 
 #missao {
-    Font-size: 20px
+    tont-size: 20px
 }
 
 em strong {
     color: RED;
+}
+
+.itens {
+    font-style: italic
 }
