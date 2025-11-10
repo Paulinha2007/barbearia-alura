@@ -1,52 +1,77 @@
-body{
-    background: #f8f7f7
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte moderna */
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    color: #333; /* Cor do texto principal */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-#banner{
-    width:100%;
-}
-
-.principal{
-    background: #973636;
-    padding: 30px;
-}
-
-.titulo-principal{
-    padding-left: 20px;
-}
-
-.titulo-centralizado {
-    text-align: center
-}
-
-p {
+/* Estilos para o cabeçalho e navegação */
+header {
+    background-color: #004a99; /* Cor principal da escola (azul escuro) */
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-#missao {
-    tont-size: 20px
+header h1 {
+    margin: 0;
 }
 
-em strong {
-    color: RED;
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex; /* Alinha os links horizontalmente */
+    justify-content: center; /* Centraliza os links */
 }
 
-.itens {
-    font-style: italic
+nav ul li a {
+    color: #fff;
+    text-decoration: none; /* Remove o sublinhado dos links */
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s; /* Transição suave de cor */
 }
 
-.beneficios{
-    background: #e67373;
-    padding:;
+nav ul li a:hover {
+    background-color: #003366; /* Cor de fundo ao passar o mouse */
 }
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+/* Estilos para a área principal e seções */
+main {
+    max-width: 900px;
+    margin: 20px auto; /* Centraliza o conteúdo na página */
+    padding: 0 20px;
 }
 
-.imagembeneficios {
-    width: 50;
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #004a99; /* Cor secundária para títulos */
+    border-bottom: 2px solid #004a99; /* Linha abaixo do título */
+    padding-bottom: 10px;
+}
+
+/* Estilos para artigos de notícias */
+article h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
 }
